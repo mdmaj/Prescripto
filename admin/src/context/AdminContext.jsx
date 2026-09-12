@@ -4,7 +4,7 @@ import { AdminConext } from "./AdminContext.js";
 const AdminConextProvider = (props) => {
   const [aToken, setAToken] = useState(
     localStorage.getItem("aToken") ? localStorage.getItem("aToken") : "",
-  );
+   );
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
